@@ -1,0 +1,68 @@
+
+.background {
+    /* background: rgb(52, 166, 251); */
+    background: url(./images/backgroundImageTest2.jpg);
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+.background td {
+    padding: 0;
+}
+
+.lava {
+    /* background: rgb(255, 100, 100); */
+    background: url(./images/lavaStyle.jpg);
+    /* background-size: 20px 20px; */
+}
+
+.wall {
+    background: white;
+    background: url(./images/wall2Style.jpg);
+    background-size: 20px 20px;
+}
+
+.actor {
+    position: absolute;
+}
+
+.coin {
+    /* background: rgb(241, 229, 89); */
+    background: url(./images/coinStyle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px 18px;
+    /* border-radius: 50%; */
+    /* box-shadow:inset -1px -1px 3px white; */
+}
+
+.player {
+    /* background: rgb(64, 64, 64); */
+    background: url(./images/mustacheStyle3.png);
+    background-size: 28px 48px;
+}
+
+.left .player {
+    background: rgb(64, 64, 64);
+    /* background: url(./images/mustacheStyle2.png); */
+    background-size: 20px 32px;
+}
+
+.lost .player {
+    background: url(./images/mustacheHurtStyle3.png);
+    background-size: 30px 48px;
+}
+
+.won .player {
+    box-shadow: -4px -7px 8px white, 
+    4px -7px 8px white, 
+    4px 7px 8px white inset, 
+    -4px 7px 8px white inset;
+}
+
+.game {
+    overflow: hidden;
+    max-width: 80vw;
+    max-height: 80vh;
+    position: relative;
+}
